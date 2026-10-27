@@ -1,0 +1,6 @@
+﻿Model,Input Size,Test Images,Accuracy,Cancer Precision,Cancer Recall,Cancer F1,Specificity,ROC-AUC,Confusion Matrix,Results File
+densenet121 512,512,,0.9749,0.9812,0.9843,0.9828,0.9496,N/A,"[[628, 10], [12, 226]]",densenet121_512_test_results.json
+mobilenetv2 224,224,876,0.9680,0.9796,0.9765,0.9780,0.9454,N/A,"[[623, 15], [13, 225]]",mobilenetv2_224_test_results.json
+mobilenetv3 large 224,224,,0.9658,0.9765,0.9765,0.9765,0.9370,N/A,"[[623, 15], [15, 223]]",mobilenetv3_large_224_test_results.json
+ResNet18,224,876,0.9726,0.9827,0.9796,0.9812,0.9538,N/A,"[[625, 13], [11, 227]]",resnet18_224_test_results.json
+ResNet50,224x224,876,0.9201,0.9551,0.9342,0.9445,0.8824,0.9733,"[[210, 28], [42, 596]]",resnet50_224_test_results.json

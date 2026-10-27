@@ -1,0 +1,55 @@
+{
+  "model": "ResNet18",
+  "dataset": "C:\\Users\\tanis\\OneDrive\\Desktop\\CANCERSCAN-AI\\CANCERSCAN-AI\\lung_xray_224\\lung_xray_clean_512",
+  "image_size": 224,
+  "class_names": [
+    "Cancer",
+    "NORMAL"
+  ],
+  "train_images": 4076,
+  "validation_images": 872,
+  "test_images": 876,
+  "best_epoch": 3,
+  "test_loss": 0.07081085838564591,
+  "test_accuracy": 0.978310502283105,
+  "classification_report": {
+    "Cancer": {
+      "precision": 0.9904912836767037,
+      "recall": 0.9796238244514106,
+      "f1-score": 0.9850275807722616,
+      "support": 638.0
+    },
+    "NORMAL": {
+      "precision": 0.9469387755102041,
+      "recall": 0.9747899159663865,
+      "f1-score": 0.9606625258799172,
+      "support": 238.0
+    },
+    "accuracy": 0.978310502283105,
+    "macro avg": {
+      "precision": 0.9687150295934539,
+      "recall": 0.9772068702088985,
+      "f1-score": 0.9728450533260894,
+      "support": 876.0
+    },
+    "weighted avg": {
+      "precision": 0.9786585246086366,
+      "recall": 0.978310502283105,
+      "f1-score": 0.9784078512467159,
+      "support": 876.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      625,
+      13
+    ],
+    [
+      6,
+      232
+    ]
+  ],
+  "cross_split_exact_hash_matches": 0,
+  "training_seconds": 285.94,
+  "roc_auc_ovr": null
+}

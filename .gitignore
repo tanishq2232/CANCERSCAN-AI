@@ -12,10 +12,6 @@ env/
 credentials.json
 secrets.json
 
-# Datasets
-/datasets/
-/dataset/
-/data/
 
 # Model weights
 *.pth

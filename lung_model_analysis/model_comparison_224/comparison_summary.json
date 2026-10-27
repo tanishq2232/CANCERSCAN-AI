@@ -1,0 +1,16 @@
+{
+    "evaluation_split": "test",
+    "image_size": 224,
+    "test_images": 876,
+    "classes": [
+        "Cancer",
+        "NORMAL"
+    ],
+    "models": [
+        "DenseNet121",
+        "MobileNetV2",
+        "MobileNetV3-Large",
+        "EfficientNet-B0"
+    ],
+    "note": "Only compare directly if preprocessing and test split match the training setup for all models."
+}

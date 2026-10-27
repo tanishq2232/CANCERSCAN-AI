@@ -1,0 +1,18 @@
+EfficientNet-B0 - Test Classification Report
+
+Test images: 876
+Accuracy: 0.9715
+
+              precision    recall  f1-score   support
+
+      Cancer     0.9888    0.9718    0.9802       638
+      NORMAL     0.9277    0.9706    0.9487       238
+
+    accuracy                         0.9715       876
+   macro avg     0.9583    0.9712    0.9645       876
+weighted avg     0.9722    0.9715    0.9717       876
+
+
+Confusion Matrix:
+[[620  18]
+ [  7 231]]

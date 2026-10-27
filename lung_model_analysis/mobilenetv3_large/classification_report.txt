@@ -1,0 +1,11 @@
+Model: MobileNetV3-Large
+Accuracy: 0.965753
+
+              precision    recall  f1-score   support
+
+      Cancer       0.98      0.98      0.98       638
+      NORMAL       0.94      0.94      0.94       238
+
+    accuracy                           0.97       876
+   macro avg       0.96      0.96      0.96       876
+weighted avg       0.97      0.97      0.97       876

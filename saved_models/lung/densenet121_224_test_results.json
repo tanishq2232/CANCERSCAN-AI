@@ -1,0 +1,56 @@
+{
+    "model": "DenseNet121",
+    "input_size": 224,
+    "classes": [
+        "Cancer",
+        "NORMAL"
+    ],
+    "test_images": 876,
+    "accuracy": 0.9726027397260274,
+    "cancer_precision": 0.9888535031847133,
+    "cancer_recall_sensitivity": 0.9733542319749217,
+    "cancer_f1_score": 0.981042654028436,
+    "normal_specificity": 0.9705882352941176,
+    "roc_auc": 0.9973064460894077,
+    "confusion_matrix_class_order": [
+        "Cancer",
+        "NORMAL"
+    ],
+    "confusion_matrix": [
+        [
+            621,
+            17
+        ],
+        [
+            7,
+            231
+        ]
+    ],
+    "classification_report": {
+        "Cancer": {
+            "precision": 0.9888535031847133,
+            "recall": 0.9733542319749217,
+            "f1-score": 0.981042654028436,
+            "support": 638.0
+        },
+        "NORMAL": {
+            "precision": 0.9314516129032258,
+            "recall": 0.9705882352941176,
+            "f1-score": 0.9506172839506173,
+            "support": 238.0
+        },
+        "accuracy": 0.9726027397260274,
+        "macro avg": {
+            "precision": 0.9601525580439696,
+            "recall": 0.9719712336345196,
+            "f1-score": 0.9658299689895267,
+            "support": 876.0
+        },
+        "weighted avg": {
+            "precision": 0.9732580124461357,
+            "recall": 0.9726027397260274,
+            "f1-score": 0.9727764005141428,
+            "support": 876.0
+        }
+    }
+}

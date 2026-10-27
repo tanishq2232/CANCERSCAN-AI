@@ -1,0 +1,26 @@
+{
+  "early_convolution": [
+    1,
+    16,
+    112,
+    112
+  ],
+  "adaptive_average_pooling": [
+    1,
+    960,
+    1,
+    1
+  ],
+  "middle_convolution": [
+    1,
+    184,
+    14,
+    14
+  ],
+  "late_convolution": [
+    1,
+    960,
+    7,
+    7
+  ]
+}

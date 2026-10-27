@@ -1,0 +1,46 @@
+{
+  "architecture": "DenseNet121",
+  "test_images": 876,
+  "classes": [
+    "Cancer",
+    "NORMAL"
+  ],
+  "accuracy": 0.9771689497716894,
+  "classification_report": {
+    "Cancer": {
+      "precision": 0.9813084112149533,
+      "recall": 0.987460815047022,
+      "f1-score": 0.984375,
+      "support": 638.0
+    },
+    "NORMAL": {
+      "precision": 0.9658119658119658,
+      "recall": 0.9495798319327731,
+      "f1-score": 0.9576271186440678,
+      "support": 238.0
+    },
+    "accuracy": 0.9771689497716894,
+    "macro avg": {
+      "precision": 0.9735601885134595,
+      "recall": 0.9685203234898976,
+      "f1-score": 0.971001059322034,
+      "support": 876.0
+    },
+    "weighted avg": {
+      "precision": 0.9770981897470185,
+      "recall": 0.9771689497716894,
+      "f1-score": 0.9771078815494156,
+      "support": 876.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      630,
+      8
+    ],
+    [
+      12,
+      226
+    ]
+  ]
+}

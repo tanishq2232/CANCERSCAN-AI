@@ -1,0 +1,10 @@
+{
+  "architecture": "DenseNet121",
+  "test_images": 876,
+  "accuracy": 0.9771689497716894,
+  "classes": [
+    "Cancer",
+    "NORMAL"
+  ],
+  "results_directory": "C:\\Users\\tanis\\OneDrive\\Desktop\\CANCERSCAN-AI\\CANCERSCAN-AI\\lung_model_analysis\\densenet121"
+}

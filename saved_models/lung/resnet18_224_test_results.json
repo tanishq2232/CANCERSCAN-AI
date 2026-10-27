@@ -1,0 +1,61 @@
+{
+  "model": "ResNet18",
+  "device": "cuda",
+  "classes": [
+    "Cancer",
+    "NORMAL"
+  ],
+  "positive_class_for_cancer_metrics": "Cancer",
+  "image_size": 224,
+  "test_images": 876,
+  "best_epoch": 12,
+  "accuracy": 0.9726027397260274,
+  "cancer_precision": 0.9827044025157232,
+  "cancer_recall_sensitivity": 0.9796238244514106,
+  "cancer_f1_score": 0.9811616954474097,
+  "specificity_normal_recall": 0.9537815126050421,
+  "roc_auc_cancer": 0.9964503042596349,
+  "confusion_matrix_class_order": [
+    "Cancer",
+    "NORMAL"
+  ],
+  "confusion_matrix": [
+    [
+      625,
+      13
+    ],
+    [
+      11,
+      227
+    ]
+  ],
+  "classification_report": {
+    "Cancer": {
+      "precision": 0.9827044025157232,
+      "recall": 0.9796238244514106,
+      "f1-score": 0.9811616954474097,
+      "support": 638.0
+    },
+    "NORMAL": {
+      "precision": 0.9458333333333333,
+      "recall": 0.9537815126050421,
+      "f1-score": 0.9497907949790795,
+      "support": 238.0
+    },
+    "accuracy": 0.9726027397260274,
+    "macro avg": {
+      "precision": 0.9642688679245283,
+      "recall": 0.9667026685282263,
+      "f1-score": 0.9654762452132446,
+      "support": 876.0
+    },
+    "weighted avg": {
+      "precision": 0.9726869202492748,
+      "recall": 0.9726027397260274,
+      "f1-score": 0.9726385512562424,
+      "support": 876.0
+    }
+  },
+  "elapsed_seconds": 572.26,
+  "note": "Research prototype only; not for clinical diagnosis."
+}

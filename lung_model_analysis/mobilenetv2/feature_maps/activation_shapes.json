@@ -1,0 +1,20 @@
+{
+  "early_convolution": [
+    1,
+    32,
+    112,
+    112
+  ],
+  "middle_convolution": [
+    1,
+    64,
+    14,
+    14
+  ],
+  "late_convolution": [
+    1,
+    1280,
+    7,
+    7
+  ]
+}

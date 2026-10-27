@@ -1,0 +1,18 @@
+{
+  "MobileNetV2": {
+    "accuracy": 0.9680365296803652,
+    "test_images": 876,
+    "classes": [
+      "Cancer",
+      "NORMAL"
+    ]
+  },
+  "MobileNetV3-Large": {
+    "accuracy": 0.9657534246575342,
+    "test_images": 876,
+    "classes": [
+      "Cancer",
+      "NORMAL"
+    ]
+  }
+}

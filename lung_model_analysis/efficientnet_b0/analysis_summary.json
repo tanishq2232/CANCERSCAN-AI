@@ -1,0 +1,53 @@
+{
+    "model": "EfficientNet-B0",
+    "checkpoint": "C:\\Users\\tanis\\OneDrive\\Desktop\\CANCERSCAN-AI\\CANCERSCAN-AI\\saved_models\\lung\\efficientnet_b0_224_best.pth",
+    "evaluation_split": "test",
+    "test_images": 876,
+    "classes": [
+        "Cancer",
+        "NORMAL"
+    ],
+    "accuracy": 0.9714611872146118,
+    "confusion_matrix": [
+        [
+            620,
+            18
+        ],
+        [
+            7,
+            231
+        ]
+    ],
+    "activation_shapes": {
+        "early_convolution": [
+            1,
+            32,
+            112,
+            112
+        ],
+        "middle_convolution": [
+            1,
+            480,
+            14,
+            14
+        ],
+        "late_convolution": [
+            1,
+            1280,
+            7,
+            7
+        ],
+        "adaptive_average_pooling": [
+            1,
+            1280,
+            1,
+            1
+        ]
+    },
+    "sample_actual_class": "Cancer",
+    "sample_predicted_class": "Cancer",
+    "sample_probabilities": {
+        "Cancer": 0.9999732971191406,
+        "NORMAL": 2.6747693482320756e-05
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "DenseNet121": {
+    "accuracy": 0.9771689497716894,
+    "test_images": 876,
+    "classes": [
+      "Cancer",
+      "NORMAL"
+    ]
+  },
+  "MobileNetV2": {
+    "accuracy": 0.9680365296803652,
+    "test_images": 876,
+    "classes": [
+      "Cancer",
+      "NORMAL"
+    ]
+  }
+}

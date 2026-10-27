@@ -1,0 +1,11 @@
+{
+  "architecture": "ResNet18",
+  "experiment": "text_removed_224",
+  "best_epoch": 4,
+  "test_samples": 876,
+  "accuracy": 0.9828767123287672,
+  "macro_precision": 0.975474421235348,
+  "macro_recall": 0.9816588077237165,
+  "macro_f1": 0.9785066189472169,
+  "roc_auc": 0.9961341903532572
+}

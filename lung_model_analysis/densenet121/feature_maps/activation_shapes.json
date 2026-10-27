@@ -1,0 +1,44 @@
+{
+  "initial_convolution": [
+    1,
+    64,
+    112,
+    112
+  ],
+  "initial_max_pooling": [
+    1,
+    64,
+    56,
+    56
+  ],
+  "early_dense_convolution": [
+    1,
+    128,
+    56,
+    56
+  ],
+  "transition1_average_pooling": [
+    1,
+    128,
+    28,
+    28
+  ],
+  "middle_dense_convolution": [
+    1,
+    128,
+    28,
+    28
+  ],
+  "transition2_average_pooling": [
+    1,
+    256,
+    14,
+    14
+  ],
+  "final_convolutional_features": [
+    1,
+    1024,
+    7,
+    7
+  ]
+}

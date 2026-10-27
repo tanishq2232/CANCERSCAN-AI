@@ -1,0 +1,11 @@
+Model: DenseNet121
+Accuracy: 0.977169
+
+              precision    recall  f1-score   support
+
+      Cancer       0.98      0.99      0.98       638
+      NORMAL       0.97      0.95      0.96       238
+
+    accuracy                           0.98       876
+   macro avg       0.97      0.97      0.97       876
+weighted avg       0.98      0.98      0.98       876
